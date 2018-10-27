@@ -212,10 +212,10 @@ void matrix_scan_user(void) {
   ergodox_right_led_3_off();
   switch (layer) {
   // TODO: Make this relevant to the ErgoDox EZ.
-  case VIM:
+  case NUM:
     ergodox_right_led_1_on();
     break;
-  case NUM:
+  case VIM:
     ergodox_right_led_2_on();
     break;
   default:
