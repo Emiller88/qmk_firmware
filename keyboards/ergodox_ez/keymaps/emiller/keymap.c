@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
                                            KC_HOME, KC_END,
                                                     MO(NUM),
-                             ALT_T(KC_SPC), MO(VIM), KC_TRNS,
+                             KC_SPC, MO(VIM), KC_LALT,
 
 
     // Right Hand
@@ -57,7 +57,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                              KC_RCBR,KC_RBRC, KC_RPRN,KC_RALT,KC_RCTL,
 
     KC_PGUP,  KC_PGDN,
-    MO(NUM),
+    KC_LGUI,
     MO(NUM), GUI_T(KC_BSPC),KC_ENT
   ),
 
