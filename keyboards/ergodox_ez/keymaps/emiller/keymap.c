@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   * |--------+------+------+------+------+-------------|           |------+------+------+------+------+------+--------|
   * |  Tab   |   Q  |   W  |   E  |   R  |   T  |  `   |           |   -  |   Y  |   U  |   I  |   O  |   P  |   \    |
   * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
-  * |  Esc   |   A  |   S  |   D  |   F  |   G  |------|           |------|   H  |   J  |   K  |   L  |   ;  |   '    |
+  * |Esc/CTRL|   A  |   S  |   D  |   F  |   G  |------|           |------|   H  |   J  |   K  |   L  |   ;  |   '    |
   * |--------+------+------+------+------+------|   =  |           |   +  |------+------+------+------+------+--------|
   * |   L⇧   |   Z  |   X  |   C  |   V  |   B  |      |           |      |   N  |   M  |   ,  |   .  |   /  |   R⇧   |
   * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // Left Hand
     KC_GRAVE,KC_1,  KC_2,   KC_3,    KC_4,   KC_5, KC_DEL,
     KC_TAB ,KC_Q,   KC_W,   KC_E,    KC_R,   KC_T, KC_GRV,
-    KC_ESC ,KC_A,   KC_S,   KC_D,    KC_F,   KC_G,
+    CTL_T(KC_ESC),KC_A,   KC_S,   KC_D,    KC_F,   KC_G,
     KC_LSFT,KC_Z,   KC_X,   KC_C,    KC_V,   KC_B, KC_EQL,
     KC_LCTL,KC_LALT,KC_LPRN,KC_LBRC, KC_LCBR,
 
